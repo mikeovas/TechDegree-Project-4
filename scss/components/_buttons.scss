@@ -7,9 +7,8 @@
     width: 100%;
     color: $color-white;
     border: none;
-    padding: 10px 0;
     text-transform: uppercase;
-    border-radius: 5px;
+    @include border-rad;
   }
   
   .default {

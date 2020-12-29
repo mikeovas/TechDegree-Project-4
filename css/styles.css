@@ -407,8 +407,8 @@ a {
   width: 100%;
   color: #fff;
   border: none;
-  padding: 10px 0;
   text-transform: uppercase;
+  padding: 10px 0;
   border-radius: 5px;
 }
 
@@ -476,8 +476,8 @@ a {
 
 .nav-link {
   text-align: center;
-  border-radius: 5px;
   padding: 10px 0;
+  border-radius: 5px;
   display: block;
   width: 100%;
   -webkit-transition: background-color .2s ease-in-out,  color .2s ease-in-out;

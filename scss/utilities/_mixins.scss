@@ -15,3 +15,10 @@
     margin-top: 10px;
     max-width: 100%; 
 }
+
+// Border Radius with Padding //
+
+@mixin border-rad {
+    padding: 10px 0;
+    border-radius: 5px;
+}
