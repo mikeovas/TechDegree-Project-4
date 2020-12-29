@@ -11,7 +11,7 @@
   
   .nav-link {
     text-align: center;
-    @include border-rad;
+    @include border-rad($pad-tb: 10px, $pad-lr: 0, $br: 5px);
     display: block;
     width: 100%;
     transition: 
@@ -21,6 +21,6 @@
   
   .nav-link:hover {
     color: $color-white;
-    background-color: $color-primary;
+    background-color: lighten($color-primary, 25);
   }
   

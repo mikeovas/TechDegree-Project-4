@@ -8,7 +8,7 @@
     color: $color-white;
     border: none;
     text-transform: uppercase;
-    @include border-rad;
+     @include border-rad($pad-tb: 10px, $pad-lr: 0, $br: 5px);
   }
   
   .default {

@@ -18,7 +18,7 @@
 
 // Border Radius with Padding //
 
-@mixin border-rad {
-    padding: 10px 0;
-    border-radius: 5px;
+@mixin border-rad($pad-tb, $pad-lr, $br) {
+    padding: $pad-tb $pad-lr;
+    border-radius: $br;
 }
