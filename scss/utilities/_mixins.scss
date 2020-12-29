@@ -5,3 +5,13 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+//Mixin for Image Postion//
+
+@mixin img-position {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    max-width: 100%; 
+}
