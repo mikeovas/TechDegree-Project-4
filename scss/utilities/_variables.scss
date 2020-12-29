@@ -1,3 +1,7 @@
+//=====================================================================================================// 
+//                                  Color Variables                                                    //
+//=====================================================================================================// 
+
 $color-primary:         #58e1c1;        // viking (green) - for primary headlines, borders, nav-link:hover background
 $color-secondary:       #777;           // boulder (grey) - for default base color, secondary headlines
 $color-links:           #51ddfc;        // malibu (blue) - for links, default background for button, theme col-11
@@ -15,3 +19,10 @@ $color-sea-pink:        #ec9fa3;        // for theme col-7
 $color-vivid-tangerine: #fd9f85;        // for theme col-8
 $color-riptide:         #80e8d1;        // for theme col-12
 $color-silver:          #ccc;           // for img-frame border 
+
+
+//=====================================================================================================// 
+//                             Media Query Breakpoints                                                 //
+//=====================================================================================================// 
+
+$brk-narrow: '(min-width: 768px)';
