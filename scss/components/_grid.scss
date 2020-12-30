@@ -20,54 +20,12 @@
     border-radius: 5px;
   }
   
-  .theme.col-1 {
-    background-color: $color-info;
-  }
-  
-  .theme.col-2 {
-    background-color: $color-warning;
-  }
-  
-  .theme.col-3 {
-    background-color: $color-french-lilac;
-  }
-  
-  .theme.col-4 {
-    background-color: $color-anakiwa-blue;
-  }
-  
-  .theme.col-5 {
-    background-color: $color-vista-blue;
-  }
-  
-  .theme.col-6 {
-    background-color: $color-fountain-blue;
-  }
-  
-  .theme.col-7 {
-    background-color: $color-sea-pink;
-  }
-  
-  .theme.col-8 {
-    background-color: $color-vivid-tangerine;
-  }
-  
-  .theme.col-9 {
-    background-color: $color-error;
-  }
-  
-  .theme.col-10 {
-    background-color: $color-success;
-  }
-  
-  .theme.col-11 {
-    background-color: $color-links;
-  }
-  
-  .theme.col-12 {
-    background-color: $color-riptide;
-  }
-  
+  @each $col, $color in $themes {
+    .theme.#{$col} {
+      background-color: $color;
+    }
+   }
+
   .card {
     flex-basis: 100%;
   }
