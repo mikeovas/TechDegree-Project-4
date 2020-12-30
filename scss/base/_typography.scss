@@ -21,14 +21,15 @@
   /*              Typography                       */
   /* ============================================= */
   
-  .headline-primary {
+  .headline {
+    &-primary {
     color: $color-primary;
     margin-left: 10px;
-  }
-  
-  .headline-secondary {
-    font-weight: 300;
-    color: $color-secondary;
+    }
+    &-secondary {
+      font-weight: 300;
+      color: $color-secondary;
+    }
   }
   
   .link {
