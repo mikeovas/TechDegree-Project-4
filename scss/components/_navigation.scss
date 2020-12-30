@@ -7,20 +7,25 @@
     flex-basis: 100%;
     display: flex;
     flex-direction: column;
+
+    &-link {
+      text-align: center;
+      @include border-rad($pad-tb: 10px, $pad-lr: 0, $br: 5px);
+      display: block;
+      width: 100%;
+      transition: 
+        background-color .2s ease-in-out, 
+        color .2s ease-in-out;
+    }
+
+    &-link:hover {
+      color: $color-white;
+      background-color: lighten($color-primary, 25);
+    }
+
   }
   
-  .nav-link {
-    text-align: center;
-    @include border-rad($pad-tb: 10px, $pad-lr: 0, $br: 5px);
-    display: block;
-    width: 100%;
-    transition: 
-      background-color .2s ease-in-out, 
-      color .2s ease-in-out;
-  }
+
   
-  .nav-link:hover {
-    color: $color-white;
-    background-color: lighten($color-primary, 25);
-  }
+
   
