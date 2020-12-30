@@ -2,19 +2,25 @@
 /*              Images                           */
 /* ============================================= */
 
-.img-avatar {
+.img {
+    &-avatar {
     @include img-position;
     max-height: 100%;
+    }
+
+    &-frame {
+      @include img-position;
+      padding: 13px;
+      border: 1px solid $color-silver;
+    }
+    
+    &-logo {
+      @include center;
+    }
+
   }
-  
-  .img-frame {
-    @include img-position;
-    padding: 13px;
-    border: 1px solid $color-silver;
-  }
-  
-  .img-logo {
-    @include center;
-  }
+
+
+
   
   
